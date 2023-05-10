@@ -1,0 +1,30 @@
+
+.header{
+    background-color: #1C2B35;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 97px;
+    color: white;
+}
+.aLink{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 32px;
+    text-decoration: none;
+    display: flex;
+}
+a{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 32px;
+    padding: 6px 8px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #fc9803;
+    border-radius: 8px;
+}

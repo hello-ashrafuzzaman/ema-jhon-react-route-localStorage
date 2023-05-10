@@ -1,0 +1,35 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-left: 20px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+    margin-top: 80px;
+}
+
+.cart-container {
+    background: rgba(255, 153, 0, 0.3);
+    padding: 10px;
+}
+
+.cart-title {
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.cart-container h6 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
